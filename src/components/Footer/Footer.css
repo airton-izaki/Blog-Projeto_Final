@@ -1,1 +1,52 @@
-﻿
+﻿.footer
+{
+     background-color: #333;
+     height: 220px;
+}
+
+.footer p
+{
+     color: #fff;
+     font-size: 20px;
+     text-align: center;
+     margin: 20px auto;
+     padding-top: 10px;
+     
+}
+
+.footer-content
+{
+     display: flex;
+     justify-content: space-between;
+     color: #fff;
+}
+
+
+
+.footer-links a, .footer-social a
+{
+     color: #fff;
+     text-decoration: none;
+     margin: 10px;
+     
+}
+
+
+
+.footer-social img
+{
+     width: 20px;
+     margin-right: 50px;
+}
+.footer-links li, .footer-social li
+{
+     list-style-type: none;
+     padding: 5px;
+}
+
+.footer .div p
+{
+     margin: 0;
+     font-size: 17px;
+     
+}

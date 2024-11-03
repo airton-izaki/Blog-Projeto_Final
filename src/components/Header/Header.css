@@ -1,1 +1,37 @@
-﻿
+﻿.header
+{
+     display: flex;
+     justify-content: space-between;    /*..Distribui horizontalmente*/
+     align-items: center;               /*..Centraliza verticalmente*/
+}
+
+.header ul
+{
+     list-style-type: none;             /*..Exclui os marcadores*/
+     display: flex;
+     gap: 20px;                         /*..Dá uma distância entre os elementos*/
+     margin-right: 10px;
+}
+
+.header a
+{
+     text-decoration: none;
+     font-size: 20px;
+     font-weight: 600;
+     transition: color 0.3s;
+}
+
+.header a:hover
+{
+     color: #007bff;
+     text-decoration: underline;
+     
+}
+
+
+.header img
+{
+     width: 200px;
+     border-radius: 50%;
+     margin: 5px;     
+}

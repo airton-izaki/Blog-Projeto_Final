@@ -1,1 +1,27 @@
-﻿
+﻿.post-item
+{
+     display: flex;
+     align-items: start;
+     
+     border-bottom: 1px solid #000;
+}
+
+.post-content h3
+{
+     margin-top: 10px;
+}
+
+.post-content p
+{
+     margin: 10px;
+     text-align: justify;
+     text-indent: 50px;
+}
+
+
+.post-item img
+{
+     width: 300px;
+     border-radius: 5px;
+     margin: 15px ;
+}
