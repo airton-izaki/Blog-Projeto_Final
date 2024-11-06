@@ -2,9 +2,13 @@
 {
      text-align: center;
      width: 400px;
-     margin: 100px auto;
-     padding: 10px;     
-     box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+     margin: 80px auto;
+     padding: 10px;  
+     border-radius: 8px;   
+     box-shadow: 0px 4px 10px rgba(41, 101, 149, 1.0);
+     margin-top: 300px;
+     
+     background-color: #6993b4
      
 }
 
@@ -50,5 +54,5 @@
      color: #fff;
      border-radius: 5px;
      cursor: pointer;
-     
+    
 }
