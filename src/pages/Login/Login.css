@@ -48,11 +48,12 @@
 {
      width: 300px;
      height: 30px;
-     margin: 12px;
+     margin: 50px 50px 50px 50px;
      border: none;
      background-color: #3d4f3c;
      color: #fff;
      border-radius: 5px;
      cursor: pointer;
+     flex-direction: column;
     
 }
