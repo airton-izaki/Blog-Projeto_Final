@@ -1,1 +1,9 @@
-﻿
+﻿.team-members
+{
+     display: flex;
+}
+
+.team-image
+{
+     width: 300px;
+}
