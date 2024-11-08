@@ -1,4 +1,12 @@
-﻿.team-members
+﻿
+
+.about-content h2
+{
+     text-align: center;
+     margin: 20px auto;   
+}
+
+.team-members
 {
      display: flex;
 }

@@ -104,7 +104,7 @@ const posts =
 
 
      return(
-          <div className="home">
+          <div className = "home">
                <h1>Bem-vindo ao mundo do futebol, o esporte mais popular do mundo.</h1>              
                
                <h2>Posts recentes</h2>

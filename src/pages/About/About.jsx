@@ -8,10 +8,10 @@ const About = () =>
 {
      return(
           <div className='about-page'>
-               <h2>Sobre nós</h2>
+               <h2>Bem-vindo ao nosso blog de Futebol!</h2>
                <section className="about-content">
                     <div className="about-text">
-                         <h2>Bem-vindo ao nosso blog de Futebol!</h2>
+                         <h2>Conheça um pouco de nós</h2>
                          <p>
                          Este blog foi criado para todos os apaixonados por futebol. Aqui, você encontrará notícias, análises, curiosidades, e tudo o que envolve o emocionante mundo do futebol. Seja você um fã de futebol local ou internacional, temos conteúdo
                          para todos os gostos!
