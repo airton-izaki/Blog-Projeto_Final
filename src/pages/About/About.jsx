@@ -2,6 +2,9 @@
 import Joao_Silva from '../../assets/Joao_Silva.jpg';
 import Maria_Oliveira from '../../assets/Maria_Oliveira.jpg';
 import Pedro_Santos from '../../assets/Pedro_Santos.jpg';
+import Joao_Silva from '../../assets/Joao_Silva.jpg';
+import Maria_Oliveira from '../../assets/Maria_Oliveira.jpg';
+import Pedro_Santos from '../../assets/Pedro_Santos.jpg';
 import './About.css';
 
 const About = () => {
