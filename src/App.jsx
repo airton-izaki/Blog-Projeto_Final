@@ -6,6 +6,7 @@ import Footer from './components/Footer/Footer';
 import Login from './pages/Login/Login';
 import Home from './pages/Home/Home';
 import About from './pages/About/About';
+import Contact from './pages/Contact/Contact'
 
 const App = () => {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
@@ -26,6 +27,7 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
+          <Route path="/Contact" element={<Contact />} />
           {isAuthenticated ? (
             <Route path="*" element={<div>Authenticated Route</div>} />
           ) : (

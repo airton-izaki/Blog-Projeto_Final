@@ -5,22 +5,19 @@ import Facebook from '../../assets/Facebook.png'
 import X from '../../assets/X.png'
 import Instagram from '../../assets/Instagram.png'
 
-const Footer = () =>
-{
-     return(          
-          <footer className = "footer">
+const Footer = () => {
+     return (
+          <footer className="footer">
                <p>&copy; 2024 Blog de Futebol. Todos os direitos reservados.</p>
-               <div className = "footer-content">
-                    <div className = "footer-links">
+               <div className="footer-content">
+                    <div className="footer-links">
                          <nav className='footer-nav'>
                               <ul className='footer-ul'>
-                                   <li><Link  to = "/"  >Home</Link></li>
-                                   <li><Link  to = "/noticias"  >Notícias</Link></li>
-                                   <li><Link  to = "/tabela"  >Tabela</Link></li>
-                                   <li><Link  to = "/about"  >Sobre nós</Link></li>
-                                   <li><Link  to = "/contact"  >Contato</Link></li>
+                                   <li><Link to="/"  >Home</Link></li>
+                                   <li><Link to="/about"  >Sobre nós</Link></li>
+                                   <li><Link to="/Contact"  >Contato</Link></li>
                               </ul>
-                         </nav>                         
+                         </nav>
                     </div>
                     <div className='div'>
                          <p>Telefone: +55(61)99875-7815</p>
@@ -32,27 +29,27 @@ const Footer = () =>
                          <nav>
                               <ul>
                                    <li>
-                                        <a href = "https://facebook.com" target="_blank" >
-                                             <img src = {Facebook} alt="Facebook" />
+                                        <a href="https://facebook.com" target="_blank" >
+                                             <img src={Facebook} alt="Facebook" />
                                         </a>
                                    </li>
                                    <li>
-                                        <a href = "https://twitter.com" target="_blank" >
-                                        <img src = {X} alt="x" />
+                                        <a href="https://twitter.com" target="_blank" >
+                                             <img src={X} alt="x" />
                                         </a>
                                    </li>
                                    <li>
-                                        <a href = "https://instagram.com" target="_blank" >
-                                        <img src = {Instagram} alt="Instagram" />
+                                        <a href="https://instagram.com" target="_blank" >
+                                             <img src={Instagram} alt="Instagram" />
                                         </a>
                                    </li>
                               </ul>
-                         </nav>                       
-                    </div>                
+                         </nav>
+                    </div>
                </div>
-               
+
           </footer>
-         
+
      );
 };
 export default Footer;
