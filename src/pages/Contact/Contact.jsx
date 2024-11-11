@@ -50,7 +50,7 @@ const Contact = () => {
                               required
                          ></textarea>
                     </div>
-                    <button type='submit'>Enviar</button>  {/* Corrigido para type="submit" */}
+                    <button type='submit'>Envia</button>  {/* Corrigido para type="submit" */}
 
                     {/* Se 'isSubmitted' for 'true', o que estiver após o && será executado */}
                     {isSubmitted && <p className="success-message">Mensagem enviada com sucesso!</p>}
