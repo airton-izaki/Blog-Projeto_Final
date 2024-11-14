@@ -4,6 +4,7 @@ import './Footer.css';
 import Facebook from '../../assets/Facebook.png'
 import X from '../../assets/X.png'
 import Instagram from '../../assets/Instagram.png'
+import youtube from '../../assets/youtube.png'
 
 const Footer = () =>
 {
@@ -15,8 +16,8 @@ const Footer = () =>
                          <nav className='footer-nav'>
                               <ul className='footer-ul'>
                                    <li><Link  to = "/"  >Home</Link></li>
-                                   <li><Link  to = "/noticias"  >Notícias</Link></li>
-                                   <li><Link  to = "/tabela"  >Tabela</Link></li>
+                                   <li><a href="https://www.espn.com.br/" target = 'blank' >Notícias</a></li>
+                                   <li><a href="https://ge.globo.com/futebol/brasileirao/" target = 'blank'>Brasileirão/2024</a></li>
                                    <li><Link  to = "/about"  >Sobre nós</Link></li>
                                    <li><Link  to = "/contact"  >Contato</Link></li>
                               </ul>
@@ -44,6 +45,11 @@ const Footer = () =>
                                    <li>
                                         <a href = "https://instagram.com" target="_blank" >
                                         <img src = {Instagram} alt="Instagram" />
+                                        </a>
+                                   </li>
+                                   <li>
+                                        <a href = "https://www.youtube.com/" target="_blank" >
+                                        <img src = {youtube} alt="Instagram" />
                                         </a>
                                    </li>
                               </ul>

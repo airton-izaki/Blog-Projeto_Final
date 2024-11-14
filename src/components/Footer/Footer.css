@@ -1,6 +1,6 @@
 ﻿.footer
 {
-     background-color: #333;
+     background-color: #1d1d1d;
      height: 220px;
      
 }
@@ -32,13 +32,12 @@
      
 }
 
-
-
 .footer-social img
 {
      width: 20px;
      margin-right: 50px;
 }
+
 .footer-links li, .footer-social li
 {
      list-style-type: none;

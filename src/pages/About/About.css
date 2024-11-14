@@ -1,17 +1,39 @@
 ﻿
 
-.about-content h2
-{
-     text-align: center;
-     margin: 20px auto;   
-}
-
-.team-members
-{
+.team-members {
+     width: 57%;
+     margin: 20px 20px 20px 100px;
+ }
+ 
+ .team-image {
+     width: 250px;
+     border: solid #000;
+ }
+ 
+ .about-text {
+     width: 50%;
+     border-block: solid;
+     padding: 10px;
+     margin: 50px 0px 50px 320px;
+ 
+ }
+ 
+ .about-final {
+     width: 80%;
+     border-block: solid;
+     padding: 10px;
+     margin: 50px 0px 50px 120px;
+ }
+ 
+ .teste {
      display: flex;
-}
-
-.team-image
-{
-     width: 300px;
-}
+ }
+ 
+ .espaco {
+     margin: 0px 0px 0px 70px;
+     padding: 10px;
+ }
+ 
+ .team {
+     margin: 20px 400px 20px 400px;
+ }

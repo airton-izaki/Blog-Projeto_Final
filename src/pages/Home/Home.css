@@ -13,8 +13,7 @@
 .post-item
 {
      display: flex;
-     align-items: start;
-     
+     align-items: start;     
      border-bottom: 1px solid #000;
 }
 
