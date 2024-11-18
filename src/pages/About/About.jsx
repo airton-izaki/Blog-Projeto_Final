@@ -2,9 +2,6 @@
 import Joao_Silva from '../../assets/Joao_Silva.jpg';
 import Maria_Oliveira from '../../assets/Maria_Oliveira.jpg';
 import Pedro_Santos from '../../assets/Pedro_Santos.jpg';
-import Joao_Silva from '../../assets/Joao_Silva.jpg';
-import Maria_Oliveira from '../../assets/Maria_Oliveira.jpg';
-import Pedro_Santos from '../../assets/Pedro_Santos.jpg';
 import './About.css';
 
 const About = () => {
@@ -19,38 +16,47 @@ const About = () => {
                               para todos os gostos!
                          </p>
                     </div>
-                    <div className="about-team">
 
-                         <div className="team-members">
-                         <h3>João Silva</h3>
-                              <p> Jornalista esportivo com mais de 10 anos de experiência cobrindo grandes campeonatos de futebol pelo mundo. </p>
-                         </div>
-                         
-                         <div>
-                         <img className='team-image' src={Joao_Silva} alt="Joao_Silva" />
-                         </div>
-
-                         <div className="team-members">
-                         <h3>Maria Oliveira</h3>
-                              <p> Ex-jogadora profissional e analista tática, Maria oferece uma visão única sobre as estratégias e dinâmicas dos jogos. </p>
-                         </div>
-
-                         <div>
-                         <img className='team-image' src={Maria_Oliveira} alt="Maria_Oliveira" />
-                         </div>
-
-                         <div className="team-members">
-                         <h3>Pedro Santos</h3>
-                              <p> Um verdadeiro fanático por futebol, Pedro compartilha sua paixão e conhecimento em artigos cheios de entusiasmo e paixão.</p>
-                         </div>
-
-                         <div>
-                         <img className='team-image' src={Pedro_Santos} alt="Pedro_Santos" />
-                         </div>
-
-                         <div className="team-members">
+                    <div className="team">
                          <h2>A Equipe</h2>
                          <p> Nossa equipe é formada por jornalistas esportivos, ex-jogadores e aficionados por futebol que trazem uma variedade de perspectivas e conhecimentos para o blog.</p>
+                    </div>
+<br />
+                    <div className="about-team">
+
+                         <div className="teste">
+                              <div className="teste">
+                                   <div className="team-members">
+
+                                        <img className='team-image' src={Joao_Silva} alt="Joao_Silva" />
+
+                                        <h3>João Silva</h3>
+                                        <p> Jornalista esportivo com mais de 10 anos de experiência cobrindo grandes campeonatos de futebol pelo mundo. </p>
+
+                                   </div>
+                              </div>
+
+                              <div className="teste" >
+                                   <div className="team-members">
+
+                                        <img className='team-image' src={Maria_Oliveira} alt="Maria_Oliveira" />
+
+                                        <h3>Maria Oliveira</h3>
+                                        <p> Ex-jogadora profissional e analista tática, Maria oferece uma visão única sobre as estratégias e dinâmicas dos jogos. </p>
+
+                                   </div>
+                              </div>
+
+                              <div className="teste" >
+                                   <div className="team-members">
+
+                                        <img className='team-image' src={Pedro_Santos} alt="Pedro_Santos" />
+
+                                        <h3>Pedro Santos</h3>
+                                        <p> Um verdadeiro fanático por futebol, Pedro compartilha sua paixão e conhecimento em artigos cheios de entusiasmo e paixão.</p>
+
+                                   </div>
+                              </div>
                          </div>
 
                     </div>
@@ -75,4 +81,5 @@ const About = () => {
           </div>
      );
 };
+
 export default About;

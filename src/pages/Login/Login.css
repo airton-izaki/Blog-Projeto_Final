@@ -1,59 +1,71 @@
-﻿.login-container
-{
-     text-align: center;
-     width: 400px;
-     margin: 80px auto;
-     padding: 10px;  
-     border-radius: 8px;   
-     box-shadow: 0px 4px 10px rgba(41, 101, 149, 1.0);
-     margin-top: 300px;
-     
-     background-color: #6993b4
-     
+﻿.container {
+     width: 250px;
+     background-color: rgb(141, 141, 141);
+     backdrop-filter: blur(10px);
+     padding: 30px;
+     border-radius: 10px;
+     margin: 20px 20px 20px 20px;
 }
 
-.login-container h2
-{
-     margin-top: 10px;
-     
+.input-field input {
+     width: 80%;
+     height: 7px;
+     outline: none;
+     border: 2px solid rgba(0, 0, 0, 0.2);
+     border-radius: 20px;
+     font-size: 16px;
+     padding: 20px 25px;
+     margin: 5px 5px 5px 5px;
 }
 
-.login-container a
-{
+.input-field .icon {
+     position: absolute;
+     right: 30px;
+     top: 45%;
+     transform: translateY(-50%);
+     font-size: 15px;
+     color: #000000;
+}
+
+.container .recall-forget {
+     display: flex;
+     justify-content: space-between;
+     font-size: 14.5px;
+     margin: 15px 0 15px;
+}
+
+.recall-forget input {
+     margin-right: 20px;
+}
+
+.recall-forget a,
+.signup-link p a {
+     color: #d8d8d8;
      text-decoration: none;
-     color: #000;
 }
 
-.login-container a:hover
-{
-     color: blue;
+.recall-forget a:hover,
+.signup-link p a:hover {
      text-decoration: underline;
 }
-.form-input input
-{
-    width: 300px;
-    height: 25px;
-    margin: 12px;
-    border: 1px solid #ccc;    
-    border-radius: 5px;
-}
 
-.form-register
-{
-     margin: 10px;
-     
-}
-
-.form-button
-{
-     width: 300px;
-     height: 30px;
-     margin: 50px 50px 50px 50px;
+.container button {
+     width: 100%;
+     height: 50px;
+     background-color: #cacaca;
      border: none;
-     background-color: #3d4f3c;
-     color: #fff;
-     border-radius: 5px;
+     outline: none;
+     border-radius: 40px;
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
      cursor: pointer;
-     flex-direction: column;
-    
+     font-size: 16px;
+     font-weight: 600;
+     text-shadow: none;
+}
+
+.container .signup-link {
+     font-size: 15px;
+     text-align: center;
+     margin: 10px 0 10px;
+     text-shadow: none;
 }
