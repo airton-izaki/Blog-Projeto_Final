@@ -4,6 +4,7 @@ import './Footer.css';
 import Facebook from '../../assets/Facebook.png'
 import X from '../../assets/X.png'
 import Instagram from '../../assets/Instagram.png'
+import youtube from '../../assets/youtube.png'
 
 const Footer = () => {
      return (

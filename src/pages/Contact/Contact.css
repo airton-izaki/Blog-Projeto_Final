@@ -1,4 +1,5 @@
 .contact {
+.contact {
      background-color: #e5edf3;
      max-width: 500px;
      margin: 50px auto;
@@ -16,8 +17,20 @@
      border-radius: 15px;
      cursor: pointer;
      margin: 10px 10px 10px 0px;
+.contact-form button {
+     background-color: #000000;
+     width: 35%;
+     color: #fff;
+     font-size: 13px;
+     height: 30px;
+     border-radius: 15px;
+     cursor: pointer;
+     margin: 10px 10px 10px 0px;
 }
 
+.success-message {
+     flex-direction: column;
+     margin: 20px 0 20px 140px;
 .success-message {
      flex-direction: column;
      margin: 20px 0 20px 140px;
@@ -32,15 +45,51 @@
      font-family: Helvetica, sans-serif;
      width: 90%;
      margin: 0px 30px 0px 0px;
+.custom-input {
+     border: none;
+     border-bottom: 2px solid #000;
+     padding: 5px;
+     font-size: 16px;
+     background-color: #e5edf3;
+     font-family: Helvetica, sans-serif;
+     width: 90%;
+     margin: 0px 30px 0px 0px;
 }
 
+.custom-input:focus {
+     border-bottom-color: #646464;
 .custom-input:focus {
      border-bottom-color: #646464;
 }
 
 .label-class {
      font-weight: bold;
+.label-class {
+     font-weight: bold;
      font-size: 16px;
+     font-family: Helvetica;
+}
+
+.teste {
+     display: flex;
+}
+
+.footer-social {
+     display: flex;
+     gap: 5px;
+     margin: 10px 10px 10px 70px;
+ }
+ 
+ .footer-social img {
+     width: 18px;
+     height: 18px;
+     margin: 0;
+ }
+
+.espaco {
+     margin: 0px 0px 0px 70px;
+     padding: 10px;
+} 
      font-family: Helvetica;
 }
 

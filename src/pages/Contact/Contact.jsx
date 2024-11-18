@@ -3,6 +3,9 @@ import './Contact.css';
 import Facebook from '../../assets/Facebook.png';
 import X from '../../assets/X.png';
 import Instagram from '../../assets/Instagram.png';
+import Facebook from '../../assets/Facebook.png';
+import X from '../../assets/X.png';
+import Instagram from '../../assets/Instagram.png';
 
 const Contact = () => {
      const [name, setName] = useState('');
