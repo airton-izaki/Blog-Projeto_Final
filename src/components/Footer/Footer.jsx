@@ -15,6 +15,8 @@ const Footer = () => {
                          <nav className='footer-nav'>
                               <ul className='footer-ul'>
                                    <li><Link to="/"  >Home</Link></li>
+                                   <li><a href="https://www.espn.com.br/">Noticias</a></li>
+                                   <li><a href="https://ge.globo.com/futebol/brasileirao-serie-a/">Tabela - 2024</a></li>
                                    <li><Link to="/about"  >Sobre nós</Link></li>
                                    <li><Link to="/Contact"  >Contato</Link></li>
                               </ul>
@@ -42,6 +44,11 @@ const Footer = () => {
                                    <li>
                                         <a href="https://instagram.com" target="_blank" >
                                              <img src={Instagram} alt="Instagram" />
+                                        </a>
+                                   </li>
+                                   <li>
+                                        <a href="https://www.youtube.com/" target="_blank" >
+                                             <img src={youtube} alt="YouTube" />
                                         </a>
                                    </li>
                               </ul>
