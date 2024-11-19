@@ -23,7 +23,13 @@ const Contact = () => {
                          <div>
                               <label>Nome </label>
                               <br />
-                              <input className='custom-input' type="text" value={name} onChange={(e) => setName(e.target.value)} required />
+                              <input 
+                                   className='custom-input' 
+                                   type="text" 
+                                   value={name} 
+                                   onChange={(e) => setName(e.target.value)} 
+                                   required 
+                              />
                          </div>
                          <div className="espaco">
                               <label className="label-class">Contato</label>
@@ -36,7 +42,12 @@ const Contact = () => {
                          <div>
                               <label>E-mail</label>
                               <br />
-                              <input className='custom-input' type="email" value={email} onChange={(e) => setEmail(e.target.value)} required />
+                              <input 
+                                   className='custom-input' 
+                                   type="email" value={email} 
+                                   onChange={(e) => setEmail(e.target.value)} 
+                                   required 
+                              />
                          </div>
                          <div className="espaco">
                               <label className="label-class">Situado em</label>

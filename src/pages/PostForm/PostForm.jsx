@@ -44,39 +44,35 @@ const PostForm = ( {onPostSubmit} ) =>
               <div className="postform-columns">
                   <div className="postform-identification">
                       <div className="postform-item">
-                          <label htmlFor="title">Título</label>
+                          <label>Título</label>
                           <input
-                              type="text"
-                              id="title"
+                              type="text"                              
                               value={title}
                               onChange={(e) => setTitle(e.target.value)}
                               required
                           />
                       </div>
                       <div className="postform-item">
-                          <label htmlFor="author">Autor</label>
+                          <label>Autor</label>
                           <input
-                              type="text"
-                              id="author"
+                              type="text"                              
                               value={author}
                               onChange={(e) => setAuthor(e.target.value)}
                               required
                           />
                       </div>
                       <div className="postform-item">
-                          <label htmlFor="date">Data de Publicação</label>
+                          <label>Data de Publicação</label>
                           <input
-                              type="date"
-                              id="date"
+                              type="date"                             
                               value={date}
                               onChange={(e) => setDate(e.target.value)}
                               required
                           />
                       </div>
                       <div className="postform-item">
-                          <label htmlFor="summary">Resumo</label>
-                          <textarea
-                              id="summary"
+                          <label>Resumo</label>
+                          <textarea                             
                               className="textarea-summary"
                               value={summary}
                               onChange={(e) => setSummary(e.target.value)}

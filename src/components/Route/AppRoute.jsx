@@ -6,6 +6,7 @@ import Home from '../../pages/Home/Home';
 import Login from '../../pages/Login/Login';
 import FullPost from '../../components/FullPost/FullPost';
 import PostForm from '../../pages/PostForm/PostForm';
+import Register from '../register/Register';
 
 // Componente para proteger rotas
 const ProtectedRoute = ({ children, isAuthenticated }) => {
@@ -23,6 +24,7 @@ const AppRoute = ({ isAuthenticated, onLogin }) => {
       <Route path="/contact" element={<Contact />} />                           
       <Route path="/login" element={<Login onLogin={onLogin} />} />  
       <Route path="/post/:id" element={<FullPost />} />
+      <Route path="/register" element={<Register />} />
       <Route 
         path="/postform" 
         element={

@@ -43,8 +43,8 @@
      color: #374151;
    }
    
-   .form-input {
-     width: 100%;
+   .login-form-input {
+     width: 95%;
      padding: 8px 12px;
      border: 1px solid #d1d5db;
      border-radius: 4px;
@@ -132,3 +132,18 @@
        margin-bottom: 20px;
      }
    }
+  
+   .signup-prompt {
+    margin-top: 20px;
+    font-size: 14px;
+    text-align: center;
+  }
+  
+  .signup-link {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .signup-link:hover {
+    text-decoration: underline;
+  }
