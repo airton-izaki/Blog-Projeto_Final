@@ -2,6 +2,9 @@ import React, { useState } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
 import './Login.css';
 
+
+//..O Hook "useState" controla o valor do campo de usuário e senha.
+//..O Hook "useNavigate" redireciona o usuário para página de "PostForm".
 const Login = ({ onLogin }) => {
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');

@@ -1,11 +1,13 @@
 ﻿import React from 'react';
 import './Register.css';
 
+
+ // Definindo a função handleRegister que será chamada quando o formulário for enviado
 const Register = () => {
-  const handleRegister = (e) => {
-    e.preventDefault();
-    alert('Cadastro realizado com sucesso!');
-  };
+	const handleRegister = (e) => {
+	e.preventDefault();
+	alert('Cadastro realizado com sucesso!');
+};
 
   return (
 <div className="register-container">

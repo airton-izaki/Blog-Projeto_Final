@@ -1,6 +1,6 @@
 ﻿import React from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
-
+import './FullPost.css';
 
 const FullPost = () =>
 {
@@ -15,7 +15,7 @@ const FullPost = () =>
      
 
      return(
-          <div>
+          <div className="fullpost-container">
                {
                     post ? 
                     (
