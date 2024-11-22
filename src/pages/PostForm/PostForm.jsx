@@ -15,7 +15,7 @@ const PostForm = ( {onPostSubmit} ) =>
           e.preventDefault();
 
           // Verifica se todos os campos estão preenchidos
-          if ( !title || !author || !summary || !content )
+          if ( !title || !author || !date || !summary || !content )
           {
                setError('Preencha todos os campos');
                return;
@@ -26,7 +26,7 @@ const PostForm = ( {onPostSubmit} ) =>
           }
           
           // Chama a função `onPostSubmit` com os dados do post
-          onPostSubmit({ title, author, summary, content });
+          onPostSubmit({ title, author, date, summary, content });
 
           // Limpa os campos após o envio
           setTitle('');

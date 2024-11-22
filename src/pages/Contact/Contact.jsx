@@ -10,7 +10,7 @@ const Contact = () => {
      const [subject, setSubject] = useState('');
      const [isSubmitted, setIsSubmitted] = useState(false);
 
-     //..mpede o comportamento padrão do formulário, que seria recarregar a página ao ser enviado.
+     //..impede o comportamento padrão do formulário, que seria recarregar a página ao ser enviado.
      const handleSubmit = (e) => {
           e.preventDefault();
           setIsSubmitted(true);  // Significa que a mensagem foi enviada com sucesso

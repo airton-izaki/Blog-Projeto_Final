@@ -11,7 +11,7 @@ const Register = () => {
 
   return (
 <div className="register-container">
-	<h2>Cadastro</h2>
+	<h2>Cadastro de Usuário</h2>
 	<form onSubmit={handleRegister} className="register-form">
 		<div className="register-form-group">
 			<label>Usuário</label>

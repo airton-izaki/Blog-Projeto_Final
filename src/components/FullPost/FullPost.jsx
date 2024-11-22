@@ -21,6 +21,8 @@ const FullPost = () =>
                     (
                          <div className="post-details">
                               <h2>{post.title}</h2>
+                              <p>{post.author}</p>
+                              <p>De: {post.date}</p>
                               <p>{post.content}</p>
                               <button className='button' onClick = {handleBack}>Voltar para página principal</button>
                          </div>
